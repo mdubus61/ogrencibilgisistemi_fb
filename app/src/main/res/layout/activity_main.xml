@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74EF32"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonSil"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="#BB4AC3"
+        android:onClick="islemSecimi"
+        android:text="ÖĞRENCİ SİL"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonListele"
+        app:layout_constraintEnd_toEndOf="@+id/buttonListele"
+        app:layout_constraintStart_toStartOf="@+id/buttonListele"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGüncelle" />
+
+    <Button
+        android:id="@+id/buttonEkle"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="43dp"
+        android:background="#BB4AC3"
+        android:onClick="islemSecimi"
+        android:text="ÖĞRENCİ EKLE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGüncelle"
+        app:layout_constraintEnd_toEndOf="@+id/buttonGüncelle"
+        app:layout_constraintStart_toStartOf="@+id/buttonGüncelle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#008F2828" />
+
+    <Button
+        android:id="@+id/buttonListele"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="284dp"
+        android:background="#BB4AC3"
+        android:onClick="islemSecimi"
+        android:text="ÖĞRENCİLERİ LİSTELE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSil" />
+
+    <Button
+        android:id="@+id/buttonGüncelle"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="46dp"
+        android:background="#BB4AC3"
+        android:onClick="islemSecimi"
+        android:text="BİLGİLERİNİ GÜNCELLE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSil"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSil"
+        app:layout_constraintStart_toStartOf="@+id/buttonSil"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEkle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "390078175626",
+    "firebase_url": "https://ogrencibilgisistemim-default-rtdb.firebaseio.com",
+    "project_id": "ogrencibilgisistemim",
+    "storage_bucket": "ogrencibilgisistemim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390078175626:android:05198028b080a6161c9073",
+        "android_client_info": {
+          "package_name": "com.md.obs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390078175626-e7hs9u6cafc55au96h9tavso2bro5m03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnGpqbHVdSFgiCim33VY07aSaHuQWoJ_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390078175626-e7hs9u6cafc55au96h9tavso2bro5m03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

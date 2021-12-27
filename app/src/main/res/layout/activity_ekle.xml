@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74EF32"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.md.obs.EkleActivity">
+
+    <EditText
+        android:id="@+id/editTextIsim"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="İsim Giriniz"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextSoyIsim"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Soy isim giriniz"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextOgrenciNo"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Öğrenci no giriniz"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextBolumAdi"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="41dp"
+        android:ems="10"
+        android:hint="Bölüm giriniz"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/buttonKaydet"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="KAYDET"
+        android:textStyle="bold" />
+</LinearLayout>
